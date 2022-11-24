@@ -1,5 +1,20 @@
 $(function () {
 
+
+	$(".product__price-input").ionRangeSlider({
+		prefix: "$",
+		type: "double",
+
+		onStart: function (data) {
+			$('.product__price-from').text(data.from);
+			$('.product__price-to').text(data.to);
+		},
+		onChange: function (data) {
+			$('.product__price-from').text(data.from);
+			$('.product__price-to').text(data.to);
+		}
+	});
+
 	$('.top-slider__inner').slick({
 		arrows: false,
 		dots: true,
@@ -13,4 +28,7 @@ $(function () {
 			filter: '.all'
 		},
 	});
+
+
+
 });

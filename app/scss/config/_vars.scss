@@ -28,3 +28,9 @@ $mainOffset: 15px;
 	font-family: "DMSans-Bold", sans-serif;
 	font-weight: 700;
 }
+%checkbox-hidden {
+	input[type="checkbox"] {
+		-webkit-appearance: none;
+		appearance: none;
+	}
+}
