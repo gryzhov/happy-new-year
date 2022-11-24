@@ -785,73 +785,73 @@ body {
 		padding: 80px 0;
 		text-align: center;
 	}
-	&__inner-title{
+	&__inner-title {
 		color: #243f4d;
 		font-size: 36px;
 		@extend %DM-700;
 		padding: 20px 0;
 	}
-	&__inner-text{
+	&__inner-text {
 		font-size: 18px;
 		color: #243f4d;
 		@extend %DM-700;
 	}
-	svg{
+	svg {
 		min-height: 64px;
 	}
 }
-.team{
+.team {
 	padding-bottom: 115px;
-	&__inner{
+	&__inner {
 		display: flex;
 		gap: 100px;
 	}
-	&__info{
+	&__info {
 		max-width: 300px;
 		width: 100%;
 	}
-	&__info-title{
+	&__info-title {
 		color: #243f4d;
 		font-size: 36px;
 		@extend %DM-700;
 		padding-bottom: 30px;
 	}
-	&__info-text{
+	&__info-text {
 		color: #243f4d;
 		font-size: 16px;
 		line-height: 30px;
 		@extend %DM-700;
 		padding-bottom: 40px;
 	}
-	&__info-link{
+	&__info-link {
 		color: #fff;
 		padding: 17px 60px 17px 17px;
 		background-color: #a3bbc8;
 		border-radius: 8px;
 		position: relative;
-		&:hover{
+		&:hover {
 			background-color: #688899;
 		}
-		&::after{
-			content: '';
+		&::after {
+			content: "";
 			position: absolute;
 			right: 20px;
 			top: 20px;
-			height:11px;
+			height: 11px;
 			width: 16px;
 			background-image: url(../images/icons/strelka.svg);
 		}
 	}
-	&__content{
+	&__content {
 		display: grid;
-		grid-template-columns: repeat(2 ,1fr);
+		grid-template-columns: repeat(2, 1fr);
 		row-gap: 100px;
 		column-gap: 30px;
 	}
-	&__content-item{
+	&__content-item {
 		position: relative;
 	}
-	&__content-blog{
+	&__content-blog {
 		position: absolute;
 		bottom: -65px;
 		background-color: #fff;
@@ -862,30 +862,30 @@ body {
 		padding: 30px 20px;
 		box-shadow: 0px 6px 57px 0px rgba(37, 37, 37, 0.05);
 	}
-	&__content-img{
+	&__content-img {
 		max-width: 370px;
-		img{
+		img {
 			max-width: 370px;
 			max-height: 320px;
 			object-fit: cover;
 		}
 	}
-	&__content-box-title{
+	&__content-box-title {
 		color: #436372;
 		font-size: 22px;
 		@extend %DM-700;
 		padding-bottom: 15px;
 	}
-	&__content-box-job{
+	&__content-box-job {
 		font-size: 16px;
 		color: #565872;
 	}
-	&__content-share{
+	&__content-share {
 		display: flex;
 		gap: 5px;
 		align-items: center;
 	}
-	&__content-share-link{
+	&__content-share-link {
 		width: 40px;
 		height: 40px;
 		background-color: #f6f6f6;
@@ -893,10 +893,41 @@ body {
 		justify-content: center;
 		align-items: center;
 		border-radius: 50%;
-
 	}
+}
 
-
+.information {
+	margin-bottom: 115px;
+	&__list{
+		padding-bottom: 60px;
+	}
+	&__item {
+		color: #243f4d;
+		font-weight: 500;
+		font-size: 16px;
+		display: flex;
+		&+.information__item{
+			padding-top: 30px;
+		}
+		span {
+			display: block;
+			padding-right: 5px;
+		}
+	}
+	&__collects{
+		margin-bottom: 60px;
+	}
+	&__title {
+		@extend %rubik-700;
+		font-size: 24px;
+		color: #243f4d;
+		margin-bottom: 30px;
+	}
+	&__text {
+		font-weight: 500;
+		color: #243f4d;
+		font-size: 16px;
+	}
 }
 
 .button {
