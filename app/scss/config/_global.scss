@@ -59,3 +59,22 @@
 		}
 	}
 }
+
+.sponsors-login{
+		padding-top: 95px;
+		padding-bottom: 150px;
+		position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 1920px;
+			height: 250px;
+			background-color: #fadfc8;
+			z-index: -5;
+			top: 0;
+		}
+		&__inner {
+			display: flex;
+			justify-content: space-around;
+		}
+}

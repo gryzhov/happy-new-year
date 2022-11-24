@@ -898,7 +898,7 @@ body {
 
 .information {
 	margin-bottom: 115px;
-	&__list{
+	&__list {
 		padding-bottom: 60px;
 	}
 	&__item {
@@ -906,7 +906,7 @@ body {
 		font-weight: 500;
 		font-size: 16px;
 		display: flex;
-		&+.information__item{
+		& + .information__item {
 			padding-top: 30px;
 		}
 		span {
@@ -914,7 +914,7 @@ body {
 			padding-right: 5px;
 		}
 	}
-	&__collects{
+	&__collects {
 		margin-bottom: 60px;
 	}
 	&__title {
@@ -927,6 +927,68 @@ body {
 		font-weight: 500;
 		color: #243f4d;
 		font-size: 16px;
+	}
+}
+.login {
+	margin-bottom: 120px;
+	&__label {
+		color: #436372;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__input {
+		margin-top: 5px;
+		margin-bottom: 35px;
+		display: block;
+		border: 1px solid #f6f6f6;
+		padding: 20px;
+		width: 470px;
+		height: 50px;
+	}
+	&__btn {
+		width: 470px;
+		height: 50px;
+		background-color: #a3bbc8;
+		margin-bottom: 30px;
+		&:hover {
+			background-color: #6b93a8;
+		}
+	}
+	&__form-bottom {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		gap: 215px;
+		color: #436372;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #f6f6f6;
+		width: 470px;
+	}
+	&__link {
+		color: #436372;
+	}
+	&__links {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		gap: 25px;
+		flex-direction: column;
+	}
+	&__link-btn {
+		width: 470px;
+		margin: 0 auto;
+		padding: 20px 0;
+		border: 1px solid #f1f3f5;
+		color: #243f4d;
+		font-size: 18px;
+		font-weight: 600;
+		&:hover{
+			background-color:rgb(252, 248, 248);
+		}
 	}
 }
 
