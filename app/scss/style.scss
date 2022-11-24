@@ -969,7 +969,8 @@ body {
 		width: 470px;
 	}
 	&__link {
-		color: #436372;
+		color: #243f4d;
+
 	}
 	&__links {
 		display: flex;
@@ -977,12 +978,13 @@ body {
 		text-align: center;
 		gap: 25px;
 		flex-direction: column;
+
 	}
 	&__link-btn {
 		width: 470px;
 		margin: 0 auto;
 		padding: 20px 0;
-		border: 1px solid #f1f3f5;
+		border: 1px solid #436372;
 		color: #243f4d;
 		font-size: 18px;
 		font-weight: 600;
