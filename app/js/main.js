@@ -1,5 +1,9 @@
 $(function () {
 
+	$(".product__rateyo").rateYo({
+		starWidth: "10px",
+		readOnly: true,
+	});
 
 	$(".product__price-input").ionRangeSlider({
 		prefix: "$",
