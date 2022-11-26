@@ -28,6 +28,7 @@
 	},
 	"dependencies": {
 		"@fancyapps/fancybox": "^3.5.7",
+		"jquery-number": "^2.1.6",
 		"rangeslider.js": "^2.3.3"
 	}
 }
