@@ -3,7 +3,16 @@ $(function () {
 	$(".product__rateyo").rateYo({
 		starWidth: "10px",
 		readOnly: true,
+		ratedFill: "gold",
+		normalFill: "#d6d6d6",
 	});
+	$(".product__rateyo--column").rateYo({
+		starWidth: "16px",
+		readOnly: true,
+		ratedFill: "gold",
+		normalFill: "#d6d6d6",
+	});
+
 
 	$(".product__price-input").ionRangeSlider({
 		prefix: "$",
