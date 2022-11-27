@@ -32,7 +32,7 @@ $(function () {
 
 
 	$(".product__rateyo").rateYo({
-		starWidth: "10px",
+		starWidth: "15px",
 		readOnly: true,
 		ratedFill: "gold",
 		normalFill: "#d6d6d6",
