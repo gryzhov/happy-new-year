@@ -1,3 +1,22 @@
 $mainOffset: 15px;
 
 
+%inter {
+	font-family: "Inter-Regular", serif;
+	font-weight: 400;
+}
+%sen {
+	font-family: "Sen", serif;
+	font-weight: 700;
+}
+%btn {
+	@extend %sen;
+	background-color: #ffd050;
+	color: #232536;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 16px 48px;
+	&:hover{
+		background-color: #EDC14A;
+	}
+}
