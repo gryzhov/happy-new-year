@@ -1,8 +1,119 @@
-@import 'config/fonts';
-@import 'config/vars';
-@import 'config/global';
-@import 'config/reset';
-@import 'config/libs';
+@import "config/fonts";
+@import "config/vars";
+@import "config/reset";
+@import "config/global";
+@import "config/libs";
 
+@import "config/media";
 
-@import 'config/media';
+.header {
+	background-color: #232536;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__menu {
+		display: flex;
+		color: #ffffff;
+	}
+	&__menu-list {
+		display: flex;
+		align-items: center;
+	}
+	&__menu-item {
+		border-bottom: 1px solid inherit;
+		@extend %inter;
+		font-size: 16px;
+		& + .header__menu-item {
+			margin-left: 25px;
+		}
+		&:hover {
+			border-bottom: 1px solid #ffffff;
+		}
+	}
+	&__menu-btn {
+		margin-top: 12px;
+		margin-bottom: 12px;
+		margin-left: 30px;
+		padding: 15px 48px;
+		background-color: #fff;
+		&:hover {
+			background-color: rgb(199, 196, 196);
+		}
+	}
+	&__menu-btn-link {
+		color: #232536;
+		font-size: 18px;
+		@extend %sen;
+	}
+}
+.footer {
+	background-color: #232536;
+	&__menu {
+		padding: 60px 0;
+		color: #fff;
+	}
+	.header__menu-item {
+		border-bottom: none;
+	}
+	&__box {
+		background-color: rgba(255, 255, 255, 0.05);
+		padding: 0 60px;
+		margin-bottom: 50px;
+		display: flex;
+	}
+	&__box-title {
+		padding: 80px 0;
+		max-width: 560px;
+		color: #ffffff;
+	}
+	&__form {
+		padding-top: 85px;
+		padding-left: 60px;
+		input{
+			color: #fff
+		}
+	}
+	&__form-input {
+		width: 320px;
+		height: 55px;
+		background-color: inherit;
+		color: #6d6e76;
+		font-size: 16px;
+		@extend %inter;
+		border: 1px solid #4c4c4c;
+		padding: 15px;
+
+	}
+	&__form-btn {
+		@extend %btn;
+		margin-left: 15px;
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 55px;
+		align-items: center;
+	}
+	&__info-contacts {
+		font-size: 16px;
+		line-height: 28px;
+		color: #ffffff;
+		opacity: 0.7;
+		@extend %inter;
+	}
+	&__info-link {
+		&+.footer__info-link{
+			margin-left: 25px;
+		}
+		path{
+			&:hover{
+				fill: #999999;
+			}
+		}
+	}
+	&__info-tel{
+		padding-left: 10px;
+	}
+}
