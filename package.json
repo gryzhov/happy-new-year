@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"browser-sync": "^2.27.10",
 		"del": "^6.1.1",
+		"fancybox": "^3.0.1",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^8.0.0",
 		"gulp-concat": "^2.6.1",
@@ -18,8 +19,21 @@
 		"gulp-imagemin": "^7.1.0",
 		"gulp-sass": "^5.1.0",
 		"gulp-uglify-es": "^3.0.0",
+		"ion-rangeslider": "^2.3.1",
 		"jquery": "^3.6.1",
+<<<<<<< HEAD
 		"sass": "^1.54.9",
 		"slick-carousel": "^1.8.1"
+=======
+		"mixitup": "^3.3.1",
+		"rateyo": "^2.3.2",
+		"sass": "^1.54.9",
+		"slick-carousel": "^1.8.1"
+	},
+	"dependencies": {
+		"@fancyapps/fancybox": "^3.5.7",
+		"jquery-number": "^2.1.6",
+		"rangeslider.js": "^2.3.3"
+>>>>>>> d4a8035eaa640f8b32fbb675fac4902349565fe0
 	}
 }

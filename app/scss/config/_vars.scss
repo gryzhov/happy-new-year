@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+=======
+$mainOffset: 15px;
+
+%rubik-400 {
+	font-family: "Rubik-Light", sans-serif;
+	font-weight: 300;
+}
+%rubik-400 {
+	font-family: "Rubik-Regular", sans-serif;
+	font-weight: 400;
+}
+%rubik-500 {
+	font-family: "Rubik-Medium", sans-serif;
+	font-weight: 500;
+}
+%rubik-700 {
+	font-family: "Rubik-Bold", sans-serif;
+	font-weight: 700;
+}
+%DM-400 {
+	font-family: "DMSans-Regular", sans-serif;
+	font-weight: 400;
+}
+%DM-500 {
+	font-family: "DMSans-Medium", sans-serif;
+	font-weight: 500;
+}
+%DM-700 {
+	font-family: "DMSans-Bold", sans-serif;
+	font-weight: 700;
+}
+%checkbox-hidden {
+	input[type="checkbox"] {
+		-webkit-appearance: none;
+		appearance: none;
+	}
+}
+%btn{
+	background-color: #a3bbc8;
+	border-radius: 5px;
+	color: #fff;
+	padding:15px 50px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+>>>>>>> d4a8035eaa640f8b32fbb675fac4902349565fe0
